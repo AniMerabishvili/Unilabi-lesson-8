@@ -57,14 +57,25 @@
 }
 
 .spacer {
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 /*section1*/
 
-.section1 {
+.bg-image {
+	background-image: url("file:///C:/Users/pc/Desktop/aninini%20maisi%202020/front-end/Unilabi-lesson-8/img/bg-image.png");
 	background-color: #E6E6E6;
-	/*padding-top: 135px;*/
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 460px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin-left: 98px;
+	
+}
+.section1 {
+
 }
 .title {
 	width: 339px;
@@ -73,12 +84,85 @@
 	font-size: 30px;
 
 }
-.wraper-img {
+
+/*section2*/
+.videos-container {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.videos-section {
+	background-color: #363E97;
+	padding-bottom: 90px;
+}
+.videos-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.video {
+	background-color: white;
+	width: 570px;
+	height: 320px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
-.wraper-title {
+.videos-title {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 24px;
+	padding-bottom: 27.78px;
+}
+
+/*News-section*/
+.News-section {
+	background-color: #BDCCD4;
+	padding-bottom: 90px;
+}
+.News-waper {
+	display: flex; 
+	justify-content: space-between;
+	
+}
+.News-container{
+	margin: 0 auto;
+	width: 1170px;
+}
+.News-h4 {
+	font-size: 22px;
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	padding: 15px;
+}
+.News-div {
+	background-color: #E6E6E6
+}
+.News-title {
+	color: #3D58A6;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 30.73px;
+	padding-bottom: 27.51px;
+
+}
+
+/*article-section*/
+
+.article-section {
+	background-color: #E6E6E6;
+
+}
+.article {
 	display: flex;
-	justify-content: flex-start;
-	align-items: flex-end;
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	color: #58595B;
+	font-size: 20px;
+
+}
+.article-p {
+	font-size: 20px;
+	width: 355px;
 }
